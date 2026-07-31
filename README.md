@@ -2,10 +2,28 @@
 
 - [x] Create a Repo
 - [x] Scaffold the project and set up boiler plate code for github backup
-- [ ] Make the home page according to the wire frame
-  - [ ] Add the branding on the nav bar and footer
-  - [ ] Add the custom form to the page
-- [ ] Make the Cats page
-- [ ] Make the Dogs page
-- [ ] Make the Birds page
-- [ ] Make the FAQs page
+- [x] Make the home page according to the wire frame
+  - [x] Add the branding on the nav bar and footer
+  - [x] Add the custom form to the page
+  - [x] make a hamburger menu
+  - [x] fix tailwind and bootstrap script errors
+  - [x] Fix weird bold problem with footers
+- [x] Make the Cats page
+  - [x] intro
+  - [x] zero to four weeks card
+  - [x] four weeks to one year card
+  - [x] one year to seven years card
+  - [x] seven years and more card
+- [x] Make the Dogs page
+  - [x] Intro
+  - [x] Diet and exercise card
+  - [x] Grooming & handling card
+  - [x] Vaccinations & medications card
+- [x] Make the Birds page
+  - [x] Intro
+  - [x] General Well Being Card
+  - [x] Cages & Environment Card
+  - [x] Diet & Treats Card
+- [x] Make the FAQs page
+  - [x] intro
+  - [x] document changes content

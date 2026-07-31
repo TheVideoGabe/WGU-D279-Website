@@ -4,10 +4,292 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@4.3.3/index.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/tailwindcss@4.3.3/dist/lib.min.js"></script>
+     <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+     
     <title>Paradigm Pet Professionals</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
-</html>
+    <header class="container-fluid py-3">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid justify-content-between">
+      <!-- Logo Left -->
+      <a class="navbar-brand d-flex align-items-center" href="/index.html">
+        <img
+          src="/src/assets/logo.png"
+          alt="Paradigm Pet Professionals Logo"
+          class="logo mx-3"
+          style="width: 4rem;"
+        />
+      </a>
+
+      <!-- Hamburger Right -->
+      <button
+        class="navbar-toggler bg-warning d-lg-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mobile-menu"
+        aria-controls="mobile-menu"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse justify-content-end mobile-menu" id="mobile-menu">
+        <ul class="navbar-nav align-items-lg-center">
+          <li class="nav-item">
+            <a class="btn btn-warning mx-2 yellowBtn" href="/index.html">
+              Home
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="btn btn-warning mx-2 yellowBtn" href="/src/pages/cats.html">
+              Cats
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="btn btn-warning mx-2 yellowBtn" href="/src/pages/dogs.html">
+              Dogs
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="btn btn-warning mx-2 yellowBtn" href="/src/pages/birds.html">
+              Birds
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="btn btn-warning mx-2 yellowBtn" href="/src/pages/faqs.html">
+              FAQs
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <h2 class="text-white rounded p-2 fw-semibold ms-lg-5">
+              "Evidence-based pet care advice for every pet lover"
+            </h2>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- content -->
+<div id="container1" class="container-fluid align-items-center justify-content-center px-md-3 px-lg-5 px-xl-5">
+  <div class="px-4 pt-2 mt-5 text-center">
+    <h1 class="display-4 fw-bold pb-4">Paradigm Pet Professionals</h1>
+  </div>
+  <!-- Section 1 -->
+  <div class="container-fluid marketing">
+    <div class="row featurette align-items-center justify-content-center">
+      <div class="col-md-7 ">
+        <h2 class="featurette-heading fw-normal lh-1">Are you looking for a new pet? <span class="text-muted">Or maybe how to take care of it.</span></h2>
+        <p class="lead">Pets are nature's gift to humanity. It has been scientifically proven that opening our homes and hearts to a pet increases our longevity and improves our overall quality of life as well as the lives of our pets. At Pet Paradigm Professionals, our mission is to offer resources to help you care for your furry, scaly, feathery, and slimy loved ones. Our pet experts—or “Pexperts”—have been working with pet owners and professionals alike for the past twelve years. They offer one-on-one consultations with current and prospective pet owners as well as group presentations designed for veterinary, pet shelter, and pet breeding professionals.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="img-fluid shadow-lg border rounded-3" src="src/assets/Meeting stock.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    
+    <hr class="featurette-divider pb-3">
+    <!-- section 2A -->
+    <div class="row featurette align-items-center justify-content-center">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Looking for advice? <span class="text-muted">Ask our Pexperts.</span></h2>
+        <p class="lead">Looking for basic pet care advice for the most common type of pets? Need additional help determining which type of pet is right for you and your family? We will work with you and provide tailored evidence-based pet care to ensure lifelong health and wellness of your new companion.</p>
+      </div>
+      <!-- section 2B -->
+      <div class="col-md-5 order-md-1">
+        <p>Looking for your new best friend? The following organizations can help you find and adopt the perfect companion:</p>
+        <ul>
+          <li style="list-style-type: square;">General Pet Resources: <a href="https://bestfriends.org/pet-care-resources/issues/pet-adoption-resources" target="_blank" rel="noopener noreferrer">Pet Adoption</a></li>
+          <li style="list-style-type: square;">ASPCA: <a href="https://www.aspca.org/" target="_blank" rel="noopener noreferrer">Main Website</a></li>
+      <li style="list-style-type: square;">Fish Rescue: <a href="https://www.sterlingshelter.org/humane-society/koi-fish-rescue/" target="_blank" rel="noopener noreferrer">Helpful Resource for Fish</a></li>
+      <li style="list-style-type: square;">Snake Rescue: <a href="https://savethesnakes.org/snakerescuecall/" target="_blank" rel="noopener noreferrer">Helpful Resource for Snakes</a></li>
+      <li style="list-style-type: square;">Bird Rescue: <a href="https://ftlob.rescuegroups.org/" target="_blank" rel="noopener noreferrer">Helpful Resource for Birds</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+<!-- Call to action Form -->
+<hr class="featurette-divider pb-3">
+<p class="container text-center ">We are also happy to help you navigate the adoption process! We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, to bringing your new loved one home. Please fill out our contact form to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.</p>
+<h3 class="text-center font-bold">Ready to get started? Fill out the form below to schedule a consultation with our pet experts!</p>
+  <!-- Intake Form -->
+  <!-- <hr class="featurette-divider"> -->
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        
+        <div class="card shadow-lg border-0 rounded-4">
+          <div class="card-body p-5">
+
+            <h2 class="text-center fw-bold mb-5">
+              Schedule a Consultation
+            </h2>
+            
+            <form id="intakeForm">
+              
+              <!-- Owner Information -->
+              <h3 class="mb-4 text-center">Pet Owner's Information</h3>
+              
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input
+                type="text"
+                class="form-control"
+                id="fullName"
+                placeholder="Enter your name"
+                required>
+              </div>
+              
+              <div class="col-md-6 mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input
+                type="tel"
+                class="form-control"
+                id="phone"
+                placeholder="(555) 555-5555">
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="name@example.com"
+                required>
+              </div>
+              
+              <div class="col-md-6 mb-3">
+                <label for="timezone" class="form-label">Time Zone</label>
+                <select id="timezone" class="form-select">
+                  <option selected disabled>Select Time Zone</option>
+                  <option>Eastern (EST)</option>
+                  <option>Central (CST)</option>
+                  <option>Mountain (MST)</option>
+                  <option>Pacific (PST)</option>
+                  <option>Alaska (AKST)</option>
+                  <option>Hawaii (HST)</option>
+                </select>
+              </div>
+            </div>
+            
+            <hr class="my-5">
+            
+            <!-- Pet Information -->
+            <h3 class="mb-4 text-center">Pet's Details</h3>
+            
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="petName" class="form-label">Pet Name</label>
+                <input
+                type="text"
+                class="form-control"
+                id="petName"
+                placeholder="Pet's name">
+              </div>
+              
+              <div class="col-md-6 mb-3">
+                <label for="petAge" class="form-label">Pet Age</label>
+                <input
+                type="text"
+                class="form-control"
+                id="petAge"
+                placeholder="Years or Months">
+              </div>
+            </div>
+            
+            <div class="mb-4">
+              <label for="petType" class="form-label">Pet Type</label>
+              <select class="form-select" id="petType">
+                <option selected disabled>Select Pet Type</option>
+                <option>Dog</option>
+                <option>Cat</option>
+                <option>Bird</option>
+                <option>Fish</option>
+                <option>Rabbit</option>
+                <option>Reptile</option>
+                <option>Other</option>
+              </select>
+            </div>
+            
+            <hr class="my-5">
+            
+            <!-- Upload -->
+            <h3 class="text-center mb-4">Pictures?</h3>
+            
+            <div class="mb-4">
+              <label for="petPhoto" class="form-label">
+                Upload an image of your pet (optional)
+              </label>
+              
+              <input
+              class="form-control"
+              type="file"
+              id="petPhoto"
+              accept="image/*">
+            </div>
+            
+            <hr class="my-5">
+            
+            <!-- Questions -->
+            <h3 class="mb-4 text-center">
+              Got any questions or worries?
+            </h3>
+            
+            <div class="mb-4">
+              <textarea
+              class="form-control"
+              id="questions"
+              rows="6"
+              placeholder="Tell us about your pet, any concerns, or what you'd like help with..."></textarea>
+            </div>
+            
+            <div class="text-center">
+              <button
+              type="submit"
+              class="btn btn-warning btn-lg px-5 yellowBtn">
+              Submit Consultation Request
+            </button>
+          </div>
+          
+          </form>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-- form that  -->
+<!-- Javascript linked files -->
+</body>
+<footer class="">
+  <img src="/src/assets/company name.png" alt="Paradigm Pet Professionals Logo" class="container logo img-fluid mr-8 ml-8 w-25 justify-content-center align-items-center" />
+  <!-- <p class=" nav justify-content-center align-items-center text-muted">Paradigm Pet Professionals ©</p> -->
+  <ul class="nav nav-pills justify-content-center align-items-center ">
+    <li class="nav-item"><a href="/index.html" class="mx-2 fs-5 fw-semibold" id="homeBtn" >Home</a></li>
+    <li class="nav-item "><a href="/src/pages/cats.html" class="mx-2 fs-5 fw-semibold" id="menuBtn" >Cats</a></li>
+    <li class="nav-item "><a href="/src/pages/dogs.html" class="mx-2 fs-5 fw-semibold" id="newsBtn" >Dogs</a></li>
+    <li class="nav-item "><a href="/src/pages/birds.html" class="mx-2 fs-5 fw-semibold" id="aboutBtn" >Birds</a></li>
+    <li class="nav-item "><a href="./src/pages/faqs.html" class="mx-2 fs-5 fw-semibold" id="aboutBtn" >FAQs</a></li>
+  </ul>
+</footer>
+<script type="module" src="/src/main.js"></script>
+ <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/4.3.1/colors.min.js" referrerplicy="no-referrer"></script> -->
+
+ </html>
