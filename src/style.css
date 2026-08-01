@@ -29,7 +29,7 @@ font-weight: bold;
 @media (max-width: 991px) {
 
   .mobile-menu {
-    background-color: rgba(33, 37, 41, 0.95);
+    background-color: #676767;
     border-radius: 1rem;
     padding: 1.5rem;
     margin-top: 1rem;
@@ -53,6 +53,7 @@ font-weight: bold;
     border-radius: 2rem;
     font-weight: 600;
     transition: transform .2s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
   }
 
 
@@ -67,4 +68,12 @@ font-weight: bold;
     text-align: center;
   }
 
+}
+
+button.navbar-toggler:focus,
+button.navbar-toggler:active,
+button.navbar-toggler-icon:focus {
+  /* border-color: #676767; */
+  box-shadow: 0 0 15px #fff12a, 0 0 30px #415dff, 0 0 60px #fffc2d;
+  
 }
